@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.so
+*.ipynb_checkpoints/
+.pytest_cache/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+# Add any other virtual environment names you might use
+
+# IDE specific files
+.vscode/        # Visual Studio Code
+.idea/          # IntelliJ IDEA / PyCharm
+
+# Dataset (if not managed separately, e.g., via DVC)
+data/           # The directory where ImageNet data will be stored
+
+# Model checkpoints and logs
+models/
+logs/
+
+# Kaggle files (from the original notebook setup)
+.kaggle/
+kaggle/input/
+
+# Jupyter notebooks and temporary files
+*.ipynb
+!RESNET50_on_Imagenet100.ipynb # If you want to keep the original notebook
+# Otherwise, just *.ipynb will ignore it. Given the plan is to modularize,
+# you might want to ignore the notebook completely after modularization.
+
+# Operating System files
+.DS_Store       # macOS
+Thumbs.db       # Windows

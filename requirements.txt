@@ -1,0 +1,7 @@
+torch
+torchvision
+kagglehub
+Pillow
+tqdm
+huggingface_hub # For pushing to Hugging Face
+numpy
