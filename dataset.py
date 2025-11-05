@@ -80,8 +80,8 @@ def get_dataloaders(data_path, batch_size, num_workers=4):
         ]),
     }
 
-    train_dir = os.path.join(data_path, 'train')
-    val_dir = os.path.join(data_path, 'val')
+    train_dir = os.path.join(data_path, 'TRAIN')
+    val_dir = os.path.join(data_path, 'VAL')
 
     image_datasets = {
         'train': ImagenetDataset(train_dir, data_transforms['train']),
